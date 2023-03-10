@@ -72,6 +72,10 @@ function generatePassword() {
   }
   
   // return array as a string
+  for (let i = 0; i <= passwordLength; i++) {
+    generatedPassword = generatedPassword.slice(0, passwordLength);
+  }
+  
   generatedPassword = generatedPassword.join("");
 
   return generatedPassword;
@@ -80,4 +84,4 @@ function generatePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-// extra credit: click on a button and copy code to clipboard
+
