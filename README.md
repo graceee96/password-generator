@@ -9,7 +9,7 @@ N/A
 ## Usage
 To start, click on the Generate Password button. Afterwards, a prompt appears, asking users how long they want their password should be. Users must enter a value between 8 and 128, or else they will receive a warning message and a password will not be generated. If a user enters a value between 8 and 128, a series of dialog box will appear, confirming the types of characters to include in the password. After the last dialog box, a password is shown.
 
-![website in action](websiteinaction.gif)
+![website in action](assets/images/websiteinaction.gif)
 
 Website link: https://graceee96.github.io/password-generator
 
